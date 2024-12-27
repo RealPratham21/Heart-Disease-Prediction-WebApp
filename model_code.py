@@ -21,7 +21,7 @@ def Diagnose(data):
         
         print('\n', data[0][0], data[0][1], data[0][1])
         
-        loaded_model = tf.keras.models.load_model('D:/MyData/My Documents/My Downloads/Heart Disease Prediction/my_model2.keras')
+        loaded_model = tf.keras.models.load_model('my_model2.keras')
 
         pred = loaded_model.predict(data)
         print("Predicted (Raw): ", pred)
